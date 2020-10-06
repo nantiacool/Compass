@@ -12,6 +12,10 @@ byte headingData[2];
 int i, headingValue;
 int ServoPin = 9;    // Connect servo with pin 9
 int pos; // variable to hold the position from the magnet 
+
+
+
+
 void setup()
 {
 // Shift the device's documented slave address (0x42) 1 bit right
@@ -72,5 +76,3 @@ void loop()
   
   delay(500);
 } 
-
-
